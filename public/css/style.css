@@ -1,0 +1,316 @@
+@media screen and (max-width: 780px){
+  .none{display:none}
+}
+
+@media screen and (max-width: 1120px){
+  .none-plus{display:none}
+}
+
+@media screen and (max-width: 1200px){
+  .none-minus{display: none}
+}
+
+
+/* reset */
+
+* {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/* -------------------------
+ *  display
+ * ------------------------- */
+
+body {
+  background-color: #EEE;
+  font-family: Tahoma;
+}
+
+a {
+  color: #2b546a;
+}
+
+link {
+  display: block;
+}
+ /* --------------------------------- all --------------------------------- */
+
+.abs-header {                  /* header */
+  background-color: white;
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200000;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 8px rgba(160,166,179,0.3);
+  text-align: center;
+}
+
+.content {                     /* content */
+  position: relative;
+}
+
+ /* --------------------------------- img --------------------------------- */
+
+.header-navs__logo {
+  position: fixed;
+  display: flex;
+  top: 0;
+  padding: 0 12px;
+  background-color: #2b546a;
+  width: 25px;
+  height: 48px;
+  line-height: 48px;
+
+}
+
+.header-navs__logo img {
+  width: 90%;
+  height: 70%;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+
+.header-image-ruby {
+  width: 240px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-course {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+
+
+ /* --------------------------------- header --------------------------------- */
+
+.abs-header li {
+  float: left;
+  position: relative;
+  left: 7%;
+  font-size: 15px;
+  padding: 0 15px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.abs-header p {
+  float: left;
+}
+
+.header-nav {
+  margin-top: 7px;
+}
+
+.header-nav-list {
+  font-family: sans-serif;
+}
+
+.header-nav-list {
+  text-decoration: none;
+
+}
+
+ /* ----------------------
+  * language-header-card
+  * ------------------------*/
+.language-header {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.language-header-card {
+  background-color: white;
+  position: relative;
+  height: 500px;
+  margin: 30px 30px;
+  display: block;
+}
+
+.language-title {
+  font-size: 20px;
+}
+
+.text-contents {
+  position: absolute;
+  margin-right: 100px;
+  font-size: 14px;
+  color: rgba(255,255,255);
+  text-align: center;
+  background-color: rgba(55,55,55,0.9);
+  border-radius: 6px;
+  padding: 8px;
+  z-index: 10;
+  white-space: nowrap;
+  bottom: -13px;
+  left: 50%;
+  display: none;
+}
+
+.text-active {
+  display: block;
+}
+
+.language-title-sub-active {
+  display: block;
+}
+
+.language-header-left {
+  position: relative;
+  text-align: left;
+  margin: 30px 10px;
+  float: left;
+}
+
+.language-header-left h1 {
+  font-size: 40px;
+  color: #2b546a;
+  margin: 20px 50px;
+}
+
+.language-header-left h3 {
+  color: #277f8a;
+  font-size: 15px;
+  margin: 20px 50px;
+}
+
+.language-header-left ul {
+  background-color: #c3c3c2; opacity:0.50;
+  width: 80%;
+  height: 50px;
+  margin: 80px 50px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.language-header-left li {
+  list-style: none;
+  float: left;
+  margin: 12px;
+}
+
+.language-header-image {
+  float: left;
+}
+
+.language-header-list {
+  text-align: center;
+  list-style: none;
+}
+
+/* -----------------------
+* header-card-ruby
+* ----------------------- */
+
+.language-header-card-ruby {
+  background-color: white;
+  position: relative;
+  height: 300px;
+  width: 40%;
+  margin: 30px 30px;
+  display: block;
+}
+
+.language-header-left-ruby h1 {
+  font-size: 16px;
+  color: #2b546a;
+  margin: 0 100px;
+}
+
+.language-header-left-ruby p {
+  margin: 0 100px;
+  font-size: 15px;
+  background-color: #c3c3c2; opacity:0.50;
+  width: 50%;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+ /* ---------------------
+  * language-header-card-program
+  ----------------------- */
+
+.language-header-card-program {
+  background-color: white;
+  position: relative;
+  height: 350px;
+  width: 25%;
+  margin: 30px 30px;
+  display: block;
+  text-align: center;
+  float: left;
+}
+
+.language-header-card-program h2 {
+  color: #277f8a;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.language-header-card-program h4 {
+  color: #277f8a;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.card-program-ms {
+  font-size: 12px;
+}
+
+.front {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin: 15px 30px;
+}
+
+.front:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+ /*--------------------------------- body --------------------------------- */
+
+ .content {
+
+ }
+
+ /* -------------------------------- footer ---------------------------------*/
+
+.footer-sub {
+  clear: left;
+  padding: 30px;
+  height: 150px;
+}
+
+.footer-sub h2 {
+  float: inherit;
+  text-align: center;
+  margin-top: 100px;
+  color: #2b546a;
+}
+
+.footer {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+}
